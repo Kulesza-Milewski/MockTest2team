@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Nav bar*/
+
+    nav {
+        background-color: rgb(53, 51, 49);
+        overflow: hidden;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: aquamarine;
+    }
+
+    /*Title*/
+
+    h1 {
+        text-align: center;
+        color: rgb(53, 51, 49);
+    }
+
+    /*C Full width*/
+
+    .full-width-text {
+        text-align: justify;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    /*D Columns*/
+    .columns-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .column {
+        flex: 1;
+        min-width: 300px;
+        background-color: white;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    .column h3 {
+        margin-top: 0;
+        color: aquamarine;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    footer li {
+        text-align: center;
+        display: inline;
+        margin: 0 15px
+    }
+
+    footer li a {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    footer li a:hover {
+        color: red;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="data.html">Data</a></li>
+                <li><a href="images.html">Images</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="Author.html">Author</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Planetaria</h1>
+
+        <div class="container">
+            <p class="full-width-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et reprehenderit officiis quisquam,
+                eligendi asperiores dolorum enim vero non sed architecto qui incidunt laborum corrupti distinctio nulla
+                a sequi inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et reprehenderit
+                officiis quisquam,
+                eligendi asperiores dolorum enim vero non sed architecto qui incidunt laborum corrupti distinctio nulla
+                a sequi inventore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni et reprehenderit
+                officiis quisquam,
+                eligendi asperiores dolorum enim vero non sed architecto qui incidunt laborum corrupti distinctio nulla
+                a sequi inventore!
+            </p>
+
+            <div class="columns-container">
+                <div class="column">
+                    <h3>Planet 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sed, aut animi vel quis fuga
+                        rerum nisi distinctio neque sapiente reprehenderit necessitatibus ad excepturi quam obcaecati
+                        molestias, expedita quae accusantium.</p>
+                </div>
+                <div class="column">
+                    <h3>Planet 2</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sed, aut animi vel quis fuga
+                        rerum nisi distinctio neque sapiente reprehenderit necessitatibus ad excepturi quam obcaecati
+                        molestias, expedita quae accusantium.</p>
+                </div>
+                <div class="column">
+                    <h3>Planet 3</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae sed, aut animi vel quis fuga
+                        rerum nisi distinctio neque sapiente reprehenderit necessitatibus ad excepturi quam obcaecati
+                        molestias, expedita quae accusantium.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Sources of informations:</p>
+        <ul>
+            <li><a href="https://solarsystem.nasa.gov/" target="_blank">NASA Solar System Exploration</a></li>
+            <li><a href="https://solarsystem.nasa.gov/" target="_blank">NASA Solar System Exploration</a></li>
+            <li><a href="https://solarsystem.nasa.gov/" target="_blank">NASA Solar System Exploration</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
