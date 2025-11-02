@@ -1,0 +1,12 @@
+    ol.listaimion {
+        list-style-type: upper-alpha;
+    }
+    
+    p.matkoibosko {
+        font-weight: bold;
+    }
+
+    h1.nagłowekzad5 { 
+        text-align: center; 
+        color: black; 
+    }
