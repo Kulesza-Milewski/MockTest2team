@@ -1,5 +1,6 @@
     ol.listaimion {
         list-style-type: upper-alpha;
+        border: 1px solid black;
     }
     
     p.matkoibosko {
@@ -10,3 +11,4 @@
         text-align: center; 
         color: black; 
     }
+
