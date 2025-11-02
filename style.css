@@ -1,5 +1,6 @@
     ol.listaimion {
         list-style-type: upper-alpha;
+        border: 1px solid black;
     }
     
     p.matkoibosko {
@@ -110,3 +111,4 @@ footer li a {
 footer li a:hover {
     color: red;
 }
+
